@@ -30,6 +30,7 @@ public class EmailServiceImpl implements EmailService {
 
 			// Sending the mail
 			javaMailSender.send(mailMessage);
+			String secretKey = "ngntaygpreueugji";
 			return "Mail sent";
 
 		} catch (Exception e) {
